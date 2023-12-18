@@ -5,7 +5,7 @@ import { RxInstagramLogo } from 'react-icons/rx';
 
 function Footer() {
     return (
-        <div className="bg-gray-400 text-white text-sm w-screen text-center flex flex-col items-center pt-12 pb-36 ">
+        <div className="box-border bg-gray-400 text-white text-sm w-screen text-center flex flex-col items-center pt-12 pb-36 ">
             <div className="flex items-center flex-col gap-6 px-8 w-7/12">
                 <span className="text-3xl font-mono font-black mb-5">Join us</span>
                 <span className='w-8/12 pb-5'>

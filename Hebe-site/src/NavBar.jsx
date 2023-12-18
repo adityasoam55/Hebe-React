@@ -5,7 +5,7 @@ import { TfiSearch } from 'react-icons/tfi';
 
 function NavBar() {
   return (
-    <div>
+    <div className='box-border'>
       <span className="text-xs text-center p-2 flex flex-wrap justify-center">
         $6 EXPRESS COURIER. FREE SHIPPING FOR ORDERS $200+. GIFTED HEBE TOTE BAG
         WITH PURCHASES $250+.
