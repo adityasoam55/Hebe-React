@@ -5,6 +5,7 @@ import ContentPage from './ContentPage';
 import AboutHebe from './AboutHebe';
 import BottomItemPage from './BottomItemPage';
 import NoticePage from './NoticePage';
+import Aside from './Aside';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <NavBar />
       <ContentPage />
       <AboutHebe />
+      <Aside />
       <NoticePage />
       <BottomItemPage />
       <Footer />

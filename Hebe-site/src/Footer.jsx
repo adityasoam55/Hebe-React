@@ -5,18 +5,18 @@ import { RxInstagramLogo } from 'react-icons/rx';
 
 function Footer() {
     return (
-        <div className="box-border bg-gray-400 text-white text-sm w-screen text-center flex flex-col items-center pt-12 pb-36 ">
+        <div className="box-border bg-gray-400 text-white text-sm w-screen text-center flex flex-col items-center pt-12 pb-20 ">
             <div className="flex items-center flex-col gap-6 px-8 w-7/12">
-                <span className="text-3xl font-mono font-black mb-5">Join us</span>
-                <span className='w-8/12 pb-5'>
+                <span className="text-4xl font-mono font-black mb-5">Join us</span>
+                <span className='w-8/12 pb-2'>
                     We will let you know when we have new arrivals, events and promo's don't
                     worry we send them infrequently, just a friendly hi now and
                     again!
                 </span>
 
-                <div className='w-7/12 flex justify-center'>
+                <div className='w-7/12 flex justify-center mb-16'>
                     <form action="" className='w-full'>
-                        <div className="relative flex items-center mb-20">
+                        <div className="relative flex items-center">
                             <input
                                 className="text-lg bg-gray-400  placeholder:text-white border-b-2 w-full"
                                 type="text"
@@ -41,8 +41,8 @@ function Footer() {
                 </div>
 
                 <div className="flex gap-3 py-4">
-                    <GrFacebookOption className="w-12 h-12 border rounded-full p-2" />
                     <RxInstagramLogo className="w-12 h-12 border rounded-full p-2" />
+                    <GrFacebookOption className="w-12 h-12 border rounded-full p-2" />
                 </div>
 
                 <div className="flex gap-2 ">

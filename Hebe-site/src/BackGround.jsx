@@ -11,7 +11,7 @@ function BackGround() {
                 <div className="text-6xl text-white font-mono">
                     New Camilla + Marc
                 </div>
-                <button className="bg-white px-7 py-2.5">Shop Now</button>
+                <button className="bg-white px-7 py-2.5 mt-3">Shop Now</button>
             </div>
         </div>
     );
