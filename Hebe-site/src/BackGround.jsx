@@ -8,7 +8,7 @@ function BackGround() {
             </div>
 
             <div className="absolute bottom-0 left-7">
-                <div className="text-6xl text-white font-mono">
+                <div className="text-6xl text-white font-mono font-bold">
                     New Camilla + Marc
                 </div>
                 <button className="bg-white px-7 py-2.5 mt-3">Shop Now</button>

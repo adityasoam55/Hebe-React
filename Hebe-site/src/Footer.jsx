@@ -5,7 +5,7 @@ import { RxInstagramLogo } from 'react-icons/rx';
 
 function Footer() {
     return (
-        <div className="box-border bg-gray-400 text-white text-sm w-screen text-center flex flex-col items-center pt-12 pb-20 ">
+        <div className="box-border bg-gray-400 text-white text-sm w-screen text-center flex flex-col items-center pt-20 pb-20 ">
             <div className="flex items-center flex-col gap-6 px-8 w-7/12">
                 <span className="text-4xl font-mono font-black mb-5">Join us</span>
                 <span className='w-8/12 pb-2'>
@@ -45,7 +45,7 @@ function Footer() {
                     <GrFacebookOption className="w-12 h-12 border rounded-full p-2" />
                 </div>
 
-                <div className="flex gap-2 ">
+                <div className="flex flex-wrap justify-center gap-2.5 ">
                     <a href="">Contact</a>
                     <a href="">FAQ</a>
                     <a href="">Shipping</a>

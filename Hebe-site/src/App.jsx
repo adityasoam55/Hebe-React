@@ -5,7 +5,11 @@ import ContentPage from './ContentPage';
 import AboutHebe from './AboutHebe';
 import BottomItemPage from './BottomItemPage';
 import NoticePage from './NoticePage';
-import Aside from './Aside';
+import ProductListScroll from './ProductListScroll';
+import MainVideo from './MainVideo';
+import BrandsLogo from './BrandsLogo';
+import AsideSecond from './AsideSecond';
+import AsideFirst from './AsideFirst';
 
 function App() {
   return (
@@ -13,7 +17,11 @@ function App() {
       <NavBar />
       <ContentPage />
       <AboutHebe />
-      <Aside />
+      <ProductListScroll />
+      <MainVideo />
+      <BrandsLogo />
+      <AsideFirst />
+      <AsideSecond />
       <NoticePage />
       <BottomItemPage />
       <Footer />
@@ -22,3 +30,4 @@ function App() {
 }
 
 export default App;
+

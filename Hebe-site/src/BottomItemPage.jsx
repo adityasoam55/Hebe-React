@@ -5,7 +5,7 @@ import { RxInstagramLogo } from 'react-icons/rx';
 function BottomItemPage() {
     return (
         <div className='box-border'>
-            <div className='text-3xl font-medium font-mono text-center'>
+            <div className='text-2xl font-light font-mono text-center'>
                 @hebeboutique #hebebebe
             </div>
 

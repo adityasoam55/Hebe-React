@@ -10,9 +10,11 @@ function NavBar() {
         $6 EXPRESS COURIER. FREE SHIPPING FOR ORDERS $200+. GIFTED HEBE TOTE BAG
         WITH PURCHASES $250+.
       </span>
-      <div className="w-screen bg-gray-400 text-white flex items-center justify-between py-7 px-6">
-        <div className="pl-2 text-3xl">Hebe</div>
-        <div className="flex flex-wrap justify-center text-center text-sm gap-8 px-2">
+
+      <div className="w-screen bg-gray-400 text-white flex items-center justify-between max-md:justify-center max-md:font-extrabold py-7 px-6">
+        <div className="pl-2 text-3xl font-bold">Hebe</div>
+
+        <div className="max-md:hidden flex flex-wrap justify-center text-center text-sm gap-8 px-2 hover:cursor-pointer">
           <a className="hover:underline underline-offset-8" href="">
             SHOP
           </a>
@@ -26,12 +28,14 @@ function NavBar() {
             STAF EDIT
           </a>
         </div>
-        <div className="flex gap-6 text-2xl pr-2">
-          <IoPersonOutline />
-          <TfiSearch />
-          <BsHandbag />
+        <div className="max-md:hidden flex gap-6 text-2xl pr-2 hover:cursor-pointer">
+          <a href=""><IoPersonOutline /></a>
+          <a href=""><TfiSearch /></a>
+          <a href=""><BsHandbag /></a>
         </div>
+
       </div>
+
     </div>
   );
 }
