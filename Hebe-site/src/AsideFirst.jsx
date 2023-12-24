@@ -2,8 +2,8 @@ import React from 'react';
 
 function AsideFirst() {
     return (
-        <div className='w-screen bg-gray-400 flex md:flex-wrap lg:flex-nowrap gap-5 px-10 py-28'>
-            <div className='w-1/2 md:w-full flex justify-center gap-4'>
+        <div className='w-screen bg-gray-400 flex max-md:flex-wrap lg:flex-nowrap gap-5 px-10 py-28 max-md:py-16'>
+            <div className='w-1/2 max-md:w-full flex justify-center gap-4'>
                 <div className='w-20'>
                     <div className='w-full h-32 flex flex-col gap-5'>
                         <img src="https://hebeboutique.com/cdn/shop/products/7C1E352C-8F37-4269-9F55-8A46D6695504_900x.jpeg.jpg?v=1591665729" />
@@ -17,11 +17,11 @@ function AsideFirst() {
                 </div>
             </div>
 
-            <div className='text-white w-1/2 md:w-full'>
+            <div className='text-white w-1/2 max-md:w-full'>
                 <div className='flex flex-col items-center'>
                     <div className='self-start mt-14 mb-5'>
                         <h5 className='font-thin text-sm mb-1.5'>KAREN WALKER FRAGRANCES</h5>
-                        <h1 className='text-5xl font-bold font-mono mb-4'>Hi There - 100ml</h1>
+                        <h1 className='text-5xl max-md:text-3xl font-bold font-mono mb-4'>Hi There - 100ml</h1>
                         <span className='pr-4 text-lg font-light'>Rs. 11,000.00</span>
                         <span className='text-md font-thin'> New Arrival</span>
                     </div>
